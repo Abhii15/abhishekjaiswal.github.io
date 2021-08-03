@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mumbai Metro | Book Subway Tickets</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="ticket.css">
+    <link rel="stylesheet" type="text/css" href="allnav.css">
+    <link rel="stylesheet" type="text/css" href="footer.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    
+    <script src="allnav.js"></script>
+    </style>
+      <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'id', includedLanguages: 'ar,en,de,hi,mr,pa,ne,zh-CN,tr,fr,id,it,,ja,kn,ru,ta,tl,uk', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false}, 'google_translate_element');
+        }
+      </script>
+      <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+</head>
+<body>
+  <img src="pagetop.png" onclick="top_page()" id="pagetop" >
+
+  <nav id="navbar">
+        
+    <div id="logo_container"><a href="index.html"><img src="mumbailogo.png"  class="logo"></a></div>
+            
+    <ul id="navul">
+      <li  id="navli">
+        <div id="menu-icon1"  onMouseOver="change1('language.png','#fff'); f1();" onMouseOut="change1('languagesel.png','#054279'); myFunction();"   onclick="language();">
+                      <span id="menu-link1">
+                          <img src="languagesel.png" id="menu-language" name="lan"><br>Language
+                      </span>
+
+                      <div class="lcontent" id="lang-content" style="height: 50px;">
+                        <div style="height: 12px;  ">
+                          <img src="triangle.png"   style="width: 25px; height: 25px; position: absolute; top: -22px; left: 88px; padding: 0 0 0 0; ">
+                        </div>
+                          <span id="google_translate_element" style="background-color: red"></span>
+                      </div>  
+                    </div>
+      </li>  
+                  
+      <li id="navli">
+        <div id="menu-icon2"  onMouseOver="change2('menu.png','#fff');" onMouseOut="change2('menusel.png','#054279');"   onclick="menu();">
+          <span id="menu-link2" >
+            <img src="menusel.png"  id="menu-menu" ><br>Menu
+          </span>
+
+          <div class="mcontent" id="menu-content" >
+
+            <div style="height: 12px;  ">
+              <img src="triangle.png"   style="width: 25px; height: 25px; position: absolute; top: -22px; right: 227px; padding: 0 0 ; ">
+            </div>
+            <a href="ticket.html"  style="text-decoration: none; color: #054279;">
+              <div style="float: left; height: 230px; width: 200px; margin-left: 15px;" id="abc">
+                              
+                <img src="mumbaiticket.png" style="height: 120px; width: 120px;  padding: 0 0;margin-top: 30px; margin-bottom: 10px;"><br><img src="rightarrow.png"  style="height: 15px; width: 8px; padding: 0 0; margin-right: 10px;">Book Tickets
+              </div>
+            </a>
+            <a href="Subway Map.html"  style="text-decoration: none;color: #054279;">
+              <div style="float: left; height: 230px; width: 200px;  margin-left: 50px; " id="abc">
+                              
+                <img src="map.png" style="height: 120px; width: 120px;  padding: 0 0;margin-top: 30px; margin-bottom: 10px;"><br><img src="rightarrow.png"   style="height: 15px; width: 8px; padding: 0 0; margin-right: 10px;">Subway Map
+              </div>
+            </a>
+            <a href="Tips.html"  style="text-decoration: none;color: #054279; ">
+              <div style="float: left; height: 230px; width: 200px;  margin-left: 50px; " id="abc">
+                              
+                <img src="tips.png" style="height: 120px; width: 120px;  padding: 0 0;margin-top: 30px; margin-bottom: 10px;"><br><img src="rightarrow.png"   style="height: 15px; width: 8px; padding: 0 0; margin-right: 10px;">Tips for using <p style="margin-left: 20px; margin-top: 0;">Mumbai Metro</p>
+              </div>
+            </a>
+            <a href="route.html"  style="text-decoration: none;color: #054279;">
+              <div style="float: left; height: 230px; width: 200px;  margin-left: 50px; " id="abc">
+                              
+                <img src="stationroute.png" style="height: 120px; width: 120px;  padding: 0 0;margin-top: 30px; margin-bottom: 10px;"><br><img src="rightarrow.png"   style="height: 15px; width: 8px; padding: 0 0; margin-right: 10px;">Station Routes
+              </div>
+            </a>
+            <a href="seemumbai.html"  style="text-decoration: none;color: #054279;">
+              <div style="float: left; height: 230px; width: 200px;  margin-left: 50px; " id="abc">
+                              
+                <img src="visit.png" style="height: 120px; width: 120px;  padding: 0 0;margin-top: 30px; margin-bottom: 10px;"><br><img src="rightarrow.png"   style="height: 15px; width: 8px; padding: 0 0;margin-right: 10px;">See Mumbai with<br>Mumbai Metro
+              </div>
+            </a>
+          </div>
+                        
+        </div>
+      </li>
+      <li id="navli">
+        <a href="validate.php" style="text-decoration: none;" >
+          <div id="menu-icon3"  onMouseOver="change3('#fff');" onMouseOut="change3('#054279');"  >
+            <span id="menu-link3" >
+              <i class="fa fa-user-circle" aria-hidden="true"></i><br>Login
+            </span>
+          </div>
+        </a>
+      </li>
+    </ul>
+        
+  </nav>
+
+  <div class="ticket">
+    <div id="ticket-1">
+      <span id="ticket-heading">Book Subway Tickets</span><br>
+      <img src="https://i.ibb.co/qB3Tw4R/Pics-Art-08-30-11-43-21.png" alt="Pics-Art-08-30-11-43-21" border="0" width="150px" height="50px" style="margin-top: 8px; margin-bottom: 12px;">
+      <p style="font-size: 20px; font-weight: 10;">Fully enjoy useful Metro Lines.</p>
+      <p style="font-size: 20px; font-weight: 10; margin-top: -10px;">  Want to enjoy Mumbai with Metro Lines all day. Want to be more deserved a valued fare within the same fare zone.</p>
+      <p style="font-size: 20px; font-weight: 10; margin-top: -10px;"> Mumbai Metro offers you the safest and comfortable journey that suit your style.
+      </p>
+    </div>
+    <div id="ticket-2">
+      <hr style="height: 3px; width: 100%; background-color: #00a3d9; margin: 0px 0 20px;">
+      <span style="font-size: 22px; font-weight: bold; color: #00467e;">Book Ticket for Mumbai Metro line 1</span><br>
+    </div>
+   
+    <div id="ticket-3" style="height: 650px;">
+      <a href="pass.php" id="passlink"><p id="pass"><img src="linkblackarrow.png" id="blackarrow">Metro Card Recharge</p></a>
+      <hr style="width: 100%; background-color: lightgrey; margin: 8px 0 40px;">
+      <img src="https://pbs.twimg.com/media/DyPHS-bX4AAHfXw.jpg" align="right" height="450px" width="400px" style="margin-right: 10px;  ">
+
+      <form action="ticket.php" method="post">
+        <label id="ticket-book">Enter Source Station:</label><br>
+        <select id = "mylist" name="source">
+                 <option >Ghatkopar</option>
+                 <option >Jagruti Nagar</option>
+                 <option >Asalpha</option>
+                 <option >Saki Naka</option>
+                 <option >Marol Naka</option>
+                 <option >Airport Road</option>
+                 <option >Chakala</option>
+                 <option >Western Express Highway</option>
+                 <option >Andheri</option>
+                 <option >Azad Nagar</option>
+                 <option >D.N.Nagar</option>
+                 <option >Versova</option>
+        </select><br>
+        <label id="ticket-book">Enter Destination Station:</label><br>
+        <select id = "mylist" name="dest">
+          <option >Versova</option>
+                 <option >D.N.Nagar</option>
+                 <option >Azad Nagar</option>
+                 <option >Andheri</option>
+                 <option >Western Express Highway</option>
+                 <option >Chakala</option>
+                 <option >Airport Road</option>
+                 <option >Marol Naka</option>
+                 <option >Saki Naka</option>
+                 <option >Asalpha</option>
+                 <option >Jagruti Nagar</option>
+                 <option >Ghatkopar</option>
+          </select><br>
+          <label id="ticket-book">Single / Return Journey Ticket:</label><br>
+        <select id = "mylist" name="journey">
+          <option >Single Journey Ticket</option>
+          <option >Return Journey Ticket</option>
+                 
+        </select><br>
+        <label id="ticket-book">Enter number of commuters:</label><br>
+        <input type="number" name="commuter" min="1" max="6" id="mylist"><br>
+        <input type="submit" name="" value="Calculate Fare" id="ticket-button">
+      </form>
+    </div>
+    
+  </div>
+
+  <div class="related_links">
+    <span id="rel_heading">Related Links</span>
+    <div id="rel_container">
+      <a href="Subway Map.html" id="rel_link">
+        <div id="container">
+          <img src="rightarrow.png" align="left" id="arrow_down">
+          <img src="maplink.png" align="right" id="fare">
+          <p id="content_down">Subway Map</p>
+        </div>
+      </a>
+      <a href="fare.html" id="rel_link">
+        <div id="container">
+          <img src="rightarrow.png" align="left" id="arrow_up">
+          <img src="fare.png" align="right" id="fare">
+          <p id="content_up">Fare / Transfer Search</p>
+        </div>
+      </a>
+      <a href="route.html" id="rel_link">
+        <div id="container">
+          <img src="rightarrow.png" align="left" id="arrow_up">
+          <img src="route.png" align="right" id="route">
+          <p id="content_up">Route / Station Information</p>
+        </div>
+      </a>
+      <a href="downloadapp.html" id="rel_link">
+        <div id="container" style="margin-right: 0;">
+          <img src="rightarrow.png" align="left" id="arrow_down">
+          <img src="footerlogo.png" align="right" id="download_app">
+          <p id="content_down">Download App</p>
+        </div>
+      </a>
+      
+    
+  </div>
+
+  <div class="footer">        
+    <div class="app"> 
+      <p id="app_content">
+        <span id="app_heading">Download App</span><br><br>
+        <img src="footerlogo.png"  align="right" id="footerlogo">
+        <span style="font-size: 17px;">Mumbai Subway Navigation for Tourists is a free application officially provided by Mumbai Metro to enable users to search transfer information for the Mumbai Subway network (Mumbai Metro and Mumbai Suburban Railway).<br>
+        This application is available in English and Hindi. It is highly recommended for visitors sightseeing in Mumbai.</span>
+        <a href="https://apps.apple.com/in/app/mumbai-metro-i/id1094699951" target="blank" id="store_link">
+          <div id="store_content1">
+            <img src="appstore.png" id="store" ><br>APP Store<img src="link white.png" id="link_img">
+          </div>
+        </a>
+        <a href="https://play.google.com/store/apps/details?id=com.servpro.mumbai_metro" target="blank" id="store_link">
+          <div id="store_content2">  
+            <img src="googleplay.png" id="store"><br>Google Play<img src="link white.png" id="link_img">
+          </div>
+        </a>
+      </p>
+    </div>
+
+    <div class="faq">
+      <p id="faq_heading">Inquires</p>
+      <a href="faq.html">
+        <div id="faq_block1">
+          <img src="faq.png" align="right" class="faq_logo">  
+          <p id="block_content"><img src="rightarrow.png" class="arrow_1"><span id="faq_content">FAQ</span></p>
+        </div>
+        </a>
+      <a href="lost.html">
+        <div id="faq_block2">
+          <img src="lost.png" align="right" class="lost_logo">  
+          <p id="block_content"><img src="rightarrow.png" class="arrow_2"><span id="faq_content">Lost & Found</span></p>
+        </div>
+      </a>
+      <p id="follow_heading">Follow Us</p>
+      <div id="follow1">
+        <a href="https://www.facebook.com/MumbaiMetroOfficial/" target="blank" id="follow_link">
+          <img src="fb.png" align="left" class="fb">Mumbai Metro on Facebook<img src="link white.png" id="link_img">
+        </a>
+      </div>
+      <div id="follow2">
+        <a href="https://instagram.com/mumbaimetro?igshid=6r51d1vk1k9u" target="blank" id="follow_link">
+          <img src="instagram.png" align="left" class="insta">Mumbai Metro on Instagram<img src="link white.png" id="link_img">
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div id="base">
+   <div id="about"><a href="about.html" id="base_link">About this site<img src="link white.png" id="link_img"></a></div>
+    <div id="tour"><a href="https://www.maharashtratourism.gov.in/destination/mumbai" id="base_link">Mumbai Tourism<img src="link white.png" id="link_img"></a></div>
+    <div id="policy"><a href="privacy.html" id="base_link">Privacy Policy<img src="link white.png" id="link_img"></a></div>
+    <div id="rights">Copyright &#169; Mumbai Metro Co., Ltd. All rights reserved.</div>    
+  </div>
+
+
+</body>
+</html>

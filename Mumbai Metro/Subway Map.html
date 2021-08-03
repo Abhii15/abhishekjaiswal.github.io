@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mumbai Metro | Subway Map</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="subwaymap.css">
+    <link rel="stylesheet" type="text/css" href="allnav.css">
+    <link rel="stylesheet" type="text/css" href="footer.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    
+    <script src="allnav.js"></script>
+    <script type="text/javascript">
+      function scroll_1(){
+    $("html, body").animate({ scrollTop: 310}, 400);
+  }
+  
+  function scroll_2(){
+    $("html, body").animate({ scrollTop: 1575}, 400);
+  }
+    </script>
+
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+          new google.translate.TranslateElement({pageLanguage: 'id', includedLanguages: 'ar,en,de,hi,mr,pa,ne,zh-CN,tr,fr,id,it,,ja,kn,ru,ta,tl,uk', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false}, 'google_translate_element');
+      }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+</head>
+<body>
+  <img src="pagetop.png" onclick="top_page()" id="pagetop" >
+
+  <nav id="navbar">
+        
+    <div id="logo_container"><a href="index.html"><img src="mumbailogo.png"  class="logo"></a></div>
+            
+    <ul id="navul">
+      <li  id="navli">
+        <div id="menu-icon1"  onMouseOver="change1('language.png','#fff'); f1();" onMouseOut="change1('languagesel.png','#054279'); myFunction();"   onclick="language();">
+                      <span id="menu-link1">
+                          <img src="languagesel.png" id="menu-language" name="lan"><br>Language
+                      </span>
+
+                      <div class="lcontent" id="lang-content" style="height: 50px;">
+                        <div style="height: 12px;  ">
+                          <img src="triangle.png"   style="width: 25px; height: 25px; position: absolute; top: -22px; left: 88px; padding: 0 0 0 0; ">
+                        </div>
+                          <span id="google_translate_element" style="background-color: red"></span>
+                      </div>  
+                    </div>
+      </li>  
+                  
+      <li id="navli">
+        <div id="menu-icon2"  onMouseOver="change2('menu.png','#fff');" onMouseOut="change2('menusel.png','#054279');"   onclick="menu();">
+          <span id="menu-link2" >
+            <img src="menusel.png"  id="menu-menu" ><br>Menu
+          </span>
+
+          <div class="mcontent" id="menu-content" >
+
+            <div style="height: 12px;  ">
+              <img src="triangle.png"   style="width: 25px; height: 25px; position: absolute; top: -22px; right: 227px; padding: 0 0 ; ">
+            </div>
+            <a href="ticket.html"  style="text-decoration: none; color: #054279;">
+              <div style="float: left; height: 230px; width: 200px; margin-left: 15px;" id="abc">
+                              
+                <img src="mumbaiticket.png" style="height: 120px; width: 120px;  padding: 0 0;margin-top: 30px; margin-bottom: 10px;"><br><img src="rightarrow.png"  style="height: 15px; width: 8px; padding: 0 0; margin-right: 10px;">Book Tickets
+              </div>
+            </a>
+            <a href="Subway Map.html"  style="text-decoration: none;color: #054279;">
+              <div style="float: left; height: 230px; width: 200px;  margin-left: 50px; " id="abc">
+                              
+                <img src="map.png" style="height: 120px; width: 120px;  padding: 0 0;margin-top: 30px; margin-bottom: 10px;"><br><img src="rightarrow.png"   style="height: 15px; width: 8px; padding: 0 0; margin-right: 10px;">Subway Map
+              </div>
+            </a>
+            <a href="Tips.html"  style="text-decoration: none;color: #054279; ">
+              <div style="float: left; height: 230px; width: 200px;  margin-left: 50px; " id="abc">
+                              
+                <img src="tips.png" style="height: 120px; width: 120px;  padding: 0 0;margin-top: 30px; margin-bottom: 10px;"><br><img src="rightarrow.png"   style="height: 15px; width: 8px; padding: 0 0; margin-right: 10px;">Tips for using <p style="margin-left: 20px; margin-top: 0;">Mumbai Metro</p>
+              </div>
+            </a>
+            <a href="route.html"  style="text-decoration: none;color: #054279;">
+              <div style="float: left; height: 230px; width: 200px;  margin-left: 50px; " id="abc">
+                              
+                <img src="stationroute.png" style="height: 120px; width: 120px;  padding: 0 0;margin-top: 30px; margin-bottom: 10px;"><br><img src="rightarrow.png"   style="height: 15px; width: 8px; padding: 0 0; margin-right: 10px;">Station Routes
+              </div>
+            </a>
+            <a href="seemumbai.html"  style="text-decoration: none;color: #054279;">
+              <div style="float: left; height: 230px; width: 200px;  margin-left: 50px; " id="abc">
+                              
+                <img src="visit.png" style="height: 120px; width: 120px;  padding: 0 0;margin-top: 30px; margin-bottom: 10px;"><br><img src="rightarrow.png"   style="height: 15px; width: 8px; padding: 0 0;margin-right: 10px;">See Mumbai with<br>Mumbai Metro
+              </div>
+            </a>
+          </div>
+                        
+        </div>
+      </li>
+      <li id="navli">
+        <a href="validate.php"  style="text-decoration: none;" >
+          <div id="menu-icon3"  onMouseOver="change3('#fff');" onMouseOut="change3('#054279');"  >
+            <span id="menu-link3" >
+              <i class="fa fa-user-circle" aria-hidden="true"></i><br>Login
+            </span>
+          </div>
+        </a>
+      </li>
+    </ul>
+        
+  </nav>
+
+  <div class="sm-1">
+    <span id="map-heading">Subway Map</span><br>
+    <img src="https://i.ibb.co/qB3Tw4R/Pics-Art-08-30-11-43-21.png" alt="Pics-Art-08-30-11-43-21" border="0" width="150px" height="50px" style="margin-top: 8px;">
+    <div class="pdf-down" style="text-align: center; width: 450px; margin: 50px auto;">
+      <div id="pdf" onclick="scroll_1()" style="float: left"><img src="downarrow.png" class="arrow2">PDF Downloads</div>
+      <img src="slash.png" class="slash" >
+      <div id="pdf" onclick="scroll_2()" style="float: right;"><img src="downarrow.png" class="arrow2">About Metro Lines</div>
+    </div>
+    <div class="map">
+      <span id="pdf-heading">PDF Downloads</span><br>
+      <p id="pdf-intro">Here you can download the Mumbai Metro subway map.</p>
+      <img src="metromap.png" class="metromap" >
+      <div class="down">
+        <div id="down1">
+          <p id="down"><a href="login.html" style="color: #00467e; text-decoration: none;"><img src="rightarrow.png" class="arrow1">Mumbai Metro Subway map in English<img src="pdficon.png" style="margin-left: 4px;"></a></p>
+        </div>
+        <div id="down2">
+          <p id="down"><a href="login.html" style="color: #00467e; text-decoration: none;"><img src="rightarrow.png" class="arrow1">Mumbai Metro Subway map in Hindi<img src="pdficon.png" style="margin-left: 4px;"></a></p>
+        </div>
+        <div id="down3">
+          <p id="down"><a href="login.html" style="color: #00467e; text-decoration: none;"><img src="rightarrow.png" class="arrow1">Mumbai Metro Subway map in Marathi<img src="pdficon.png" style="margin-left: 4px;"></a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="lines">
+      <span id="lines_heading">About Metro Lines</span>
+      <p id="lines_intro">The following table shows the details of Mumbai Metro subway Lines.</p>
+
+      <table class="lines_table" border="1" cellpadding="12px" cellspacing="0">
+        <tr id="row_1">
+          <th id="col_1">Line</th>
+          <th>Name of Corridor</th>
+          <th id="col_3">Length (km)</th>
+          <th id="col_4">Stations</th>
+          <th id="col_5">Status</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td id="col_2">Versova - Andheri - Ghatkopar</td>
+          <td>11.4</td>
+          <td>12</td>
+          <td>Opened</td>
+        </tr>
+        <tr>
+          <td rowspan="2">2</td>
+          <td id="col_2">2A: Dahisar - Malad - DN Nagar</td>
+          <td>18.5</td>
+          <td>17</td>
+          <td>Under Construction</td>
+        </tr>
+        <tr>
+          <td id="col_2">2B: DN Nagar - Mandala</td>
+          <td>23.6</td>
+          <td>22</td>
+          <td>Under Construction</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td id="col_2">Colaba - Bandra - SEEPZ</td>
+          <td>33.5</td>
+          <td>27</td>
+          <td>Under Construction</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td id="col_2">Wadala - Ghatkopar - Mulund - Teen Hath Naka - Kasarvadavali</td>
+          <td>32.32</td>
+          <td>32</td>
+          <td>Under Construction</td>
+        </tr>
+        <tr>
+          <td>4A</td>
+          <td id="col_2">Kasarwadavali - Gaimukh</td>
+          <td>2.7</td>
+          <td>2</td>
+          <td>Under Construction</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td id="col_2">Thane - Bhiwandi - Kalyan</td>
+          <td>24.9</td>
+          <td>17</td>
+          <td>Under Construction</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td id="col_2">Lokhandwala - Jogeshwari - Kanjurmarg</td>
+          <td>14.5</td>
+          <td>13</td>
+          <td>Under Construction</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td id="col_2">Dahisar (East) - Bandra (East)</td>
+          <td>16.5</td>
+          <td>13</td>
+          <td>Under Construction</td>
+        </tr>
+        <tr>
+          <td>7A</td>
+          <td id="col_2">Andheri - CSIA</td>
+          <td>3.17</td>
+          <td>2</td>
+          <td>Under Construction</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td id="col_2">CSIA T2 - NMIA</td>
+          <td>35</td>
+          <td>7</td>
+          <td>Proposed</td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td id="col_2">Dahisar (East) - Mira - Bhayander</td>
+          <td>10.3</td>
+          <td>8</td>
+          <td>Under Construction</td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td id="col_2">Gaimukh-Shivaji Chowk (Mira Road)</td>
+          <td>9.2</td>
+          <td>9</td>
+          <td>Approved</td>
+        </tr>
+        <tr>
+          <td>11</td>
+          <td id="col_2">Wadala - CSMT</td>
+          <td>12.7</td>
+          <td>11</td>
+          <td>Approved</td>
+        </tr>
+        <tr>
+          <td>12</td>
+          <td id="col_2">Kalyan - Dombivali - Taloja</td>
+          <td>9.2</td>
+          <td>9</td>
+          <td>Approved</td>
+        </tr>
+        <td>13</td>
+          <td id="col_2">Mira Bhayander - Virar</td>
+          <td>23</td>
+          <td>20</td>
+          <td>Proposed</td>
+        </tr>
+        <tr>
+          <td>14</td>
+          <td id="col_2">Kanjurmarg - Badlapur</td>
+          <td>45</td>
+          <td>40</td>
+          <td>Approved</td>
+        </tr>
+      </table>
+
+    </div>
+    
+  </div>
+
+  <div class="related_links" >
+    <span id="rel_heading">Related Links</span>
+    <div id="rel_container">
+      <a href="route.html" id="rel_link">
+        <div id="container">
+          <img src="rightarrow.png" align="left" id="arrow_up">
+          <img src="route.png" align="right" id="route">
+          <p id="content_up">Route / Station Information</p>
+        </div>
+      </a>
+      <a href="fare.html" id="rel_link">
+        <div id="container">
+          <img src="rightarrow.png" align="left" id="arrow_up">
+          <img src="fare.png" align="right" id="fare">
+          <p id="content_up">Fare / Transfer Search</p>
+        </div>
+      </a>
+      <a href="downloadapp.html" id="rel_link">
+        <div id="container">
+          <img src="rightarrow.png" align="left" id="arrow_down">
+          <img src="footerlogo.png" align="right" id="download_app">
+          <p id="content_down">Download App</p>
+        </div>
+      </a>
+      <a href="safety.html" id="rel_link">
+        <div id="container_last">
+          <img src="rightarrow.png" align="left" id="arrow_up">
+          <img src="guide.png" align="right" id="guide" style="margin-left: 5px;">
+          <p id="content_up">Handy Safety Guide</p>
+        </div>
+      </a>
+    
+  </div>
+</div>
+
+  <div class="footer">        
+    <div class="app"> 
+      <p id="app_content">
+        <span id="app_heading">Download App</span><br><br>
+        <img src="footerlogo.png"  align="right" id="footerlogo">
+        <span style="font-size: 17px;">Mumbai Subway Navigation for Tourists is a free application officially provided by Mumbai Metro to enable users to search transfer information for the Mumbai Subway network (Mumbai Metro and Mumbai Suburban Railway).<br>
+        This application is available in English and Hindi. It is highly recommended for visitors sightseeing in Mumbai.</span>
+        <a href="https://apps.apple.com/in/app/mumbai-metro-i/id1094699951" target="blank" id="store_link">
+          <div id="store_content1">
+            <img src="appstore.png" id="store" ><br>APP Store<img src="link white.png" id="link_img">
+          </div>
+        </a>
+        <a href="https://play.google.com/store/apps/details?id=com.servpro.mumbai_metro" target="blank" id="store_link">
+          <div id="store_content2">  
+            <img src="googleplay.png" id="store"><br>Google Play<img src="link white.png" id="link_img">
+          </div>
+        </a>
+      </p>
+    </div>
+
+    <div class="faq">
+      <p id="faq_heading">Inquires</p>
+      <a href="faq.html">
+        <div id="faq_block1">
+          <img src="faq.png" align="right" class="faq_logo">  
+          <p id="block_content"><img src="rightarrow.png" class="arrow_1"><span id="faq_content">FAQ</span></p>
+        </div>
+      </a>
+      <a href="lost.html">
+        <div id="faq_block2">
+          <img src="lost.png" align="right" class="lost_logo">  
+          <p id="block_content"><img src="rightarrow.png" class="arrow_2"><span id="faq_content">Lost & Found</span></p>
+        </div>
+      </a>
+      <p id="follow_heading">Follow Us</p>
+      <div id="follow1">
+        <a href="https://www.facebook.com/MumbaiMetroOfficial/" target="blank" id="follow_link">
+          <img src="fb.png" align="left" class="fb">Mumbai Metro on Facebook<img src="link white.png" id="link_img">
+        </a>
+      </div>
+      <div id="follow2">
+        <a href="https://instagram.com/mumbaimetro?igshid=6r51d1vk1k9u" target="blank" id="follow_link">
+          <img src="instagram.png" align="left" class="insta">Mumbai Metro on Instagram<img src="link white.png" id="link_img">
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div id="base">
+    <div id="about"><a href="about.html" id="base_link">About this site<img src="link white.png" id="link_img"></a></div>
+    <div id="tour"><a href="https://www.maharashtratourism.gov.in/destination/mumbai" id="base_link">Mumbai Tourism<img src="link white.png" id="link_img"></a></div>
+    <div id="policy"><a href="Privacy.html" id="base_link">Privacy Policy<img src="link white.png" id="link_img"></a></div>
+    <div id="rights">Copyright &#169; Mumbai Metro Co., Ltd. All rights reserved.</div>  
+  </div>
+
+
+</body>
+</html>

@@ -1,0 +1,273 @@
+body{
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+.related_links{
+    margin-top: 120px;
+    text-align: center;
+    color: #00467e;
+    width: 100%;
+    margin: 120px auto 0;
+}
+#rel_heading{
+    font-size: 30px;
+    font-weight: bold;
+}
+#rel_link{
+    font-weight: bold;
+    font-size: 18px;
+    color: #00467e;
+}
+#rel_container{
+    height: 130px;
+    width: 92%;
+    margin: 50px auto 80px;
+   
+}
+#container{
+    float: left;
+    width: 260px;
+    height: 100px;
+    margin-right: 25px; 
+    margin-left: 4px;
+    text-align: left;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+#container_last{
+    float: left;
+    width: 260px;
+    height: 100px; 
+    margin-left: 5px;
+    text-align: left;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+#content_up{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+#content_down{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+#arrow_up{
+    height: 12px;
+    width: 8px;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+#arrow_down{
+    height: 12px;
+    width: 8px;
+    margin-top: 44px;
+    margin-left: 20px;
+}
+#route,#fare,#download_app{
+    height: 60px; 
+    width: 60px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+#guide{
+    height: 60px; 
+    width: 60px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.footer { 
+   	background-color : #0c6c9f; 
+    height: 440px;
+    max-width: 100%;
+
+ }
+.app { 
+	float: left;
+	height: 365px;
+	width: 550px;
+    max-width: 100%;
+	color: snow;
+	background-color: #094f87; 
+	margin: 35px 0 0 60px;
+	text-align: left;
+	border-radius: 5px;
+}
+#app_content{
+    margin-left: 25px;
+    margin-right: 45px;
+    margin-top: 20px;
+}
+#app_heading{
+    font-size: 30px;
+} 
+#footerlogo{
+    height: 80px; 
+    width: 80px;
+    margin-left: 30px;
+}
+#store_content1{
+    float: left;
+    margin-top: 10px;
+    margin-left: 25px;
+    text-align: left;
+}
+#store_content2{
+    float: left;
+    margin-left: 25px;
+    margin-top: 10px;
+    text-align: left;
+}
+#store{
+    width: 180px; 
+    height: 60px;
+    margin-bottom: 15px;   
+}
+#store_link{
+    color: snow;
+    text-decoration: none;
+}
+#link_img{
+    width: 14px;
+    height: 12px;
+    margin-left: 8px;
+}
+#store_content1:hover, #store_content2:hover{
+    text-decoration: underline;
+}
+.faq{ 
+    float: left;
+    width: 570px;
+     max-width: 100%;
+    height: 365px;
+    color: snow;
+    text-align:left;
+    color:snow;
+    margin: 35px 0 0 50px;
+    
+}
+#faq_heading{
+    font-size: 30px;
+    margin-top: 20px;
+}
+#faq_block1{
+    width:48%; 
+    height:70px; 
+    background-color: #fff; 
+    float: left; 
+    border-radius: 5px;
+    margin-right: 22px;
+    
+}
+#faq_block2{
+    width:48%; 
+    height:70px; 
+    background-color: #fff; 
+    float: left; 
+    border-radius: 5px;
+}
+#block_content{
+    margin-top: 23px;
+}
+.arrow_1{
+    height: 13px;
+    width: 8px;
+    margin-left: 15px;
+    margin-right: 80px;
+}
+#faq_content{
+    color: #0c6c9f; 
+    font-weight: bold; 
+    font-size: 20px;
+}
+.faq_logo{
+    height: 34px; 
+    width: 34px;
+    margin-top: 16px;
+    margin-right: 24px;
+}
+.arrow_2{
+   height: 13px;
+    width: 8px;
+    margin-left: 15px;
+    margin-right: 40px; 
+}
+.lost_logo{
+    height: 34px; 
+    width: 34px;
+    margin-top: 16px;
+    margin-right: 24px;
+}
+#faq_block1:hover, #faq_block2:hover, #container:hover, #container_last:hover{
+    background-color: silver;
+}
+#follow_heading{
+    font-size: 30px;
+    margin-top: 140px;
+}
+#follow1{
+    margin-top: 30px;
+    height: 20px;
+    text-align: left;
+}
+.fb{
+    height: 27px;
+    width: 27px;
+    margin-top: -5px;
+    margin-right: 10px;
+}
+#follow_link{
+    text-decoration: none;
+    font-size: 16px;
+    color: snow;
+}
+#follow2{
+    margin-top: 17px;
+    height: 20px;
+    text-align: left;
+}
+.insta{
+    height: 30px;
+    width: 30px;
+    margin-top: -5px;
+    margin-right: 10px;
+}
+#follow_link:hover,#base_link:hover{
+    text-decoration: underline;
+}
+
+
+#base {
+    height: 54px;
+    width: 100%;
+     max-width: 100%;
+  	margin-top: 1px;
+    background-color : #0c6c9f;
+    font-size: 16px;  
+}
+#about{
+    float: left;
+    margin-top: 18px;
+    margin-left: 60px;
+}
+#tour, #policy{
+    float: left;
+    margin-top: 18px;
+    margin-left: 60px;
+}
+#rights{
+    
+    margin-top: 18px;
+   
+    color: snow;
+}
+
+#base_link{
+    text-decoration: none;
+    font-size: 16px;
+    color: snow;
+}
+
+@media (max-width: 900px){

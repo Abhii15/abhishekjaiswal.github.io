@@ -1,0 +1,130 @@
+body{
+	font-family: Roboto, sans-serif;
+}
+.sm-1{
+	text-align: center;
+	margin: 10% auto 0;
+	
+}
+
+#map-heading{
+	font-size: 46px;
+	color: #02477f;
+	font-weight: bold;
+}
+
+.pdf-down{
+	margin-top: 50px;
+	color: #02477f;
+	font-size: 20px;
+}
+.arrow2{
+	margin-right: 10px;
+	height: 10px;
+	width: 14px;
+
+}
+#pdf{
+	cursor: pointer;
+	color: #00467e;
+}
+
+.slash{
+	height: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+#pdf:hover, #down:hover{
+	text-decoration: underline;
+}
+.map, .lines{	
+	margin-top: 100px;
+
+}
+#pdf-heading, #lines_heading{
+	font-size: 30px;
+	color: #00467e;
+	font-weight: bold;
+	
+}
+#pdf-intro, #lines_intro{
+	margin-top: 50px;
+	font-size: 19px;
+}
+.metromap{
+	margin-top: 20px;
+	height: 850px;
+	width: 80%;
+	border: 2px solid #000;
+}
+.down{
+	
+	height: 130px;
+	width: 1030px;
+	margin: 30px auto 0;
+}
+#down1{
+	float: left;
+	width: 323px;
+	height: 100px;
+	margin-right: 20px;
+	margin-left: 8px; 
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+	border: 1px solid grey;
+	border-radius: 4px;
+}
+#down2{
+	float: left;
+	width: 323px;
+	height: 100px;
+	margin-right: 20px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+	border: 1px solid grey;
+	border-radius: 4px;
+}
+#down3{
+	float: left;
+	width: 323px;
+	height: 100px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+	border: 1px solid grey;
+	border-radius: 4px;
+}
+.arrow1{
+	height: 12px;
+	width: 8px;
+	margin-right: 8px;
+}
+#down{
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 30px;
+}
+.lines_table{
+	margin: 3% auto 0;
+	width: 80%;
+}
+#row_1{
+	background-color: lightgrey;
+	font-size: 19px;
+}
+#col_1{
+	width: 40px;
+}
+#col_2{
+	text-align: left;
+}
+#col_3{
+	width: 80px;
+}
+#col_4{
+	width: 100px;
+}
+
+
